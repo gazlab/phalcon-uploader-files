@@ -8,14 +8,16 @@ class File extends \Gazlab\Uploader
         if ($this->request->hasFiles()) {
             $files = $this->request->getUploadedFiles();
 
+            $filePaths = [];
+
             // Print the real file names and sizes
             foreach ($files as $file) {
-                $filePaths[] = $this->storeDir . '/' . $file->getName();
-
                 // Move the file into the application
                 $file->moveTo(
-                    $filePath
+                    $this->storeDir . '/' . $file->getName()
                 );
+
+                $filePaths[] = $this->url . '/' . $file->getName();
             }
 
             return $filePaths;
