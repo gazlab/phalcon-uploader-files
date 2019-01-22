@@ -4,7 +4,6 @@
     "keywords": ["Phalcon", "Uploader Files", "Plugin"],
     "type": "library",
     "license": "MIT",
-    "version": "1.0",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
