@@ -1,9 +1,11 @@
 {
     "name": "gazlab/phalcon-uploader-files",
     "description": "Plugin Uploader Files for PhalconPHP",
+    "keywords": ["Phalcon", "Uploader Files", "Plugin"],
     "type": "library",
     "license": "MIT",
-    "require": {},
+    "version": "1.0",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Gazlab\\": "src/"
