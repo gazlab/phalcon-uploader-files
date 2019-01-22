@@ -19,7 +19,7 @@ class Uploader extends \Phalcon\Mvc\User\Plugin
 
     public static function mountUploader()
     {
-        $adapter = self::adapter;
+        $adapter = (new self)->adapter;
         $adapter = new $adapter();
 
         return json_encode($adapter->upload());
