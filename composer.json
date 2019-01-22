@@ -1,0 +1,18 @@
+{
+    "name": "gazlab/phalcon-uploader-files",
+    "description": "Plugin Uploader Files for PhalconPHP",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gazlab\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Sony Kusyana",
+        "email": "sony.kusyana@yahoo.com",
+        "role": "Developer"
+    }]
+}
